@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sergei Telegin</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+			background-color: #f5f5f5;
+		}
+
+		h1 {
+			color: #333;
+			margin-bottom: 30px;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		.email,
+		.phone,
+		.address {
+			margin-bottom: 20px;
+		}
+
+		.email a,
+		.phone a {
+			color: blue;
+			text-decoration: none;
+		}
+
+		.email a:hover,
+		.phone a:hover {
+			text-decoration: underline;
+		}
+
+		.card {
+			width: 80%;
+			margin: 50px auto;
+			background-color: #fff;
+			padding: 40px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border-radius: 8px;
+		}
+
+		.card img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			margin-bottom: 20px;
+		}
+
+		.card h1 {
+			font-size: 32px;
+			margin-bottom: 10px;
+		}
+
+		.card p {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		.card .professional {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.card .personal {
+			font-style: italic;
+			margin-bottom: 10px;
+		}
+
+		.card .summary {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="card">
+		<img src="1.jpg" alt="profile pic">
+		<h1>Sergei Telegin</h1>
+		<p>Full Stack Developer</p>
+		<p class="email">Email: <a href="mailto:sergei.telegin@example.com">sergei.telegin@example.com</a></p>
+		<p class="phone">Phone: <a href="tel:555-555-5555">555-555-5555</a></p>
+		<p class="address">Address: 123 Main St, Anytown USA</p>
+		<p class="professional">Professional Skills: HTML, CSS, JavaScript, PHP, Python, Java, React, Node.js, </p>
+		<p class="personal">Personal Skills: problem-solving, attention to detail, time management, teamwork</p>
+		<p class="summary">Summary: Sergei Telegin is a full stack developer with experience in various programming
+			languages and frameworks. He is a skilled problem-solver and has a strong
+			attention to detail. He is also experienced in time management and teamwork.</p>
+
+	</div>
+	<script>
+		// Get the email element
+		var email = document.querySelector('.email a');// Add an event listener to the email element
+		email.addEventListener('click', function () {
+			// Show an alert message when the email link is clicked
+			alert('Email sent!');
+		}); </script>
+</body>
+
+</html>
